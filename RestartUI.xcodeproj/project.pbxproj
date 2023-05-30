@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F64DC982A25A1FD001E5222 /* CircleGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F64DC972A25A1FD001E5222 /* CircleGroup.swift */; };
 		1FCA91772A23D23A008AFDF2 /* RestartUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCA91762A23D23A008AFDF2 /* RestartUIApp.swift */; };
 		1FCA91792A23D23A008AFDF2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCA91782A23D23A008AFDF2 /* ContentView.swift */; };
 		1FCA917B2A23D23D008AFDF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FCA917A2A23D23D008AFDF2 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F64DC972A25A1FD001E5222 /* CircleGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroup.swift; sourceTree = "<group>"; };
 		1FCA91732A23D23A008AFDF2 /* RestartUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestartUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FCA91762A23D23A008AFDF2 /* RestartUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestartUIApp.swift; sourceTree = "<group>"; };
 		1FCA91782A23D23A008AFDF2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 		1FCA918A2A23DDE6008AFDF2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1F64DC972A25A1FD001E5222 /* CircleGroup.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			files = (
 				1FCA918E2A23DFFB008AFDF2 /* Onboarding.swift in Sources */,
 				1FCA91792A23D23A008AFDF2 /* ContentView.swift in Sources */,
+				1F64DC982A25A1FD001E5222 /* CircleGroup.swift in Sources */,
 				1FCA91902A23E013008AFDF2 /* Home.swift in Sources */,
 				1FCA91772A23D23A008AFDF2 /* RestartUIApp.swift in Sources */,
 			);
