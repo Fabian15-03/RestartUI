@@ -32,6 +32,7 @@ struct Home: View {
             
             Button {
                 withAnimation{
+                    playSound(sound: "success", type: "m4a")
                     isOnboardingActive = true
                 }
             } label: {
@@ -49,6 +50,7 @@ struct Home: View {
                 isAnimating = true
             }
         })
+        .preferredColorScheme(.dark)
         
     }
 }

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1F64DC982A25A1FD001E5222 /* CircleGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F64DC972A25A1FD001E5222 /* CircleGroup.swift */; };
+		1F64DC9A2A26F054001E5222 /* AudioPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F64DC992A26F054001E5222 /* AudioPlay.swift */; };
 		1FCA91772A23D23A008AFDF2 /* RestartUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCA91762A23D23A008AFDF2 /* RestartUIApp.swift */; };
 		1FCA91792A23D23A008AFDF2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCA91782A23D23A008AFDF2 /* ContentView.swift */; };
 		1FCA917B2A23D23D008AFDF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FCA917A2A23D23D008AFDF2 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		1F64DC972A25A1FD001E5222 /* CircleGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroup.swift; sourceTree = "<group>"; };
+		1F64DC992A26F054001E5222 /* AudioPlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlay.swift; sourceTree = "<group>"; };
 		1FCA91732A23D23A008AFDF2 /* RestartUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestartUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FCA91762A23D23A008AFDF2 /* RestartUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestartUIApp.swift; sourceTree = "<group>"; };
 		1FCA91782A23D23A008AFDF2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 		1FCA918B2A23DE07008AFDF2 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				1F64DC992A26F054001E5222 /* AudioPlay.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				1FCA91792A23D23A008AFDF2 /* ContentView.swift in Sources */,
 				1F64DC982A25A1FD001E5222 /* CircleGroup.swift in Sources */,
 				1FCA91902A23E013008AFDF2 /* Home.swift in Sources */,
+				1F64DC9A2A26F054001E5222 /* AudioPlay.swift in Sources */,
 				1FCA91772A23D23A008AFDF2 /* RestartUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
